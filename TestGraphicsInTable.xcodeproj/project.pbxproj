@@ -19,6 +19,10 @@
 		B52718F018B098B4007C6E5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B52718D818B098B4007C6E5E /* UIKit.framework */; };
 		B52718F818B098B4007C6E5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B52718F618B098B4007C6E5E /* InfoPlist.strings */; };
 		B52718FA18B098B4007C6E5E /* TestGraphicsInTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B52718F918B098B4007C6E5E /* TestGraphicsInTableTests.m */; };
+		B527190618B098D5007C6E5E /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B527190418B098D5007C6E5E /* MyViewController.m */; };
+		B527190718B098D5007C6E5E /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B527190518B098D5007C6E5E /* MyViewController.xib */; };
+		B527190A18B09AE0007C6E5E /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B527190918B09AE0007C6E5E /* MyTableViewCell.m */; };
+		B527190E18B09B15007C6E5E /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B527190D18B09B15007C6E5E /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		B52718F518B098B4007C6E5E /* TestGraphicsInTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGraphicsInTableTests-Info.plist"; sourceTree = "<group>"; };
 		B52718F718B098B4007C6E5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B52718F918B098B4007C6E5E /* TestGraphicsInTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGraphicsInTableTests.m; sourceTree = "<group>"; };
+		B527190318B098D5007C6E5E /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		B527190418B098D5007C6E5E /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		B527190518B098D5007C6E5E /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		B527190818B09AE0007C6E5E /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		B527190918B09AE0007C6E5E /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		B527190D18B09B15007C6E5E /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				B52718E418B098B4007C6E5E /* AppDelegate.m */,
 				B52718E618B098B4007C6E5E /* Images.xcassets */,
 				B52718DB18B098B4007C6E5E /* Supporting Files */,
+				B527190318B098D5007C6E5E /* MyViewController.h */,
+				B527190418B098D5007C6E5E /* MyViewController.m */,
+				B527190518B098D5007C6E5E /* MyViewController.xib */,
+				B527190818B09AE0007C6E5E /* MyTableViewCell.h */,
+				B527190918B09AE0007C6E5E /* MyTableViewCell.m */,
+				B527190D18B09B15007C6E5E /* MyTableViewCell.xib */,
 			);
 			path = TestGraphicsInTable;
 			sourceTree = "<group>";
@@ -220,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52718DF18B098B4007C6E5E /* InfoPlist.strings in Resources */,
+				B527190E18B09B15007C6E5E /* MyTableViewCell.xib in Resources */,
 				B52718E718B098B4007C6E5E /* Images.xcassets in Resources */,
+				B527190718B098D5007C6E5E /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B527190618B098D5007C6E5E /* MyViewController.m in Sources */,
+				B527190A18B09AE0007C6E5E /* MyTableViewCell.m in Sources */,
 				B52718E518B098B4007C6E5E /* AppDelegate.m in Sources */,
 				B52718E118B098B4007C6E5E /* main.m in Sources */,
 			);
