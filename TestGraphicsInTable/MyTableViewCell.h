@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyDrawingView.h"
 
 @interface MyTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *myCellLabel;
 @property (nonatomic, assign) int value;
+@property (weak, nonatomic) IBOutlet MyDrawingView *myDrawingView;
+
+- (void)redisplay;
 
 @end

@@ -74,10 +74,13 @@
     cell.value = indexPath.row;
     
     NSLog(@"got cell for row %d",indexPath.row);
+    [cell redisplay];
     return cell;
     
 }
 
 - (IBAction)onMyButton:(id)sender {
+    NSLog(@"Exiting");
+    exit;
 }
 @end

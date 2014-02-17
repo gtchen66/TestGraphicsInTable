@@ -23,6 +23,7 @@
 		B527190718B098D5007C6E5E /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B527190518B098D5007C6E5E /* MyViewController.xib */; };
 		B527190A18B09AE0007C6E5E /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B527190918B09AE0007C6E5E /* MyTableViewCell.m */; };
 		B527190E18B09B15007C6E5E /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B527190D18B09B15007C6E5E /* MyTableViewCell.xib */; };
+		B527191118B1B6CD007C6E5E /* MyDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B527191018B1B6CD007C6E5E /* MyDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		B527190818B09AE0007C6E5E /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		B527190918B09AE0007C6E5E /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		B527190D18B09B15007C6E5E /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		B527190F18B1B6CD007C6E5E /* MyDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDrawingView.h; sourceTree = "<group>"; };
+		B527191018B1B6CD007C6E5E /* MyDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				B527190818B09AE0007C6E5E /* MyTableViewCell.h */,
 				B527190918B09AE0007C6E5E /* MyTableViewCell.m */,
 				B527190D18B09B15007C6E5E /* MyTableViewCell.xib */,
+				B527190F18B1B6CD007C6E5E /* MyDrawingView.h */,
+				B527191018B1B6CD007C6E5E /* MyDrawingView.m */,
 			);
 			path = TestGraphicsInTable;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				B527190A18B09AE0007C6E5E /* MyTableViewCell.m in Sources */,
 				B52718E518B098B4007C6E5E /* AppDelegate.m in Sources */,
 				B52718E118B098B4007C6E5E /* main.m in Sources */,
+				B527191118B1B6CD007C6E5E /* MyDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,6 +20,10 @@
                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qpe-9W-CwQ" customClass="MyDrawingView">
+                        <rect key="frame" x="10" y="5" width="160" height="33"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="DDI-He-VIw" firstAttribute="top" secondItem="IgI-9u-xnr" secondAttribute="top" constant="5" id="81L-gb-hCZ"/>
@@ -30,6 +34,7 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="myCellLabel" destination="DDI-He-VIw" id="gFu-wd-77x"/>
+                <outlet property="myDrawingView" destination="Qpe-9W-CwQ" id="DqK-Wb-0Tv"/>
             </connections>
         </tableViewCell>
     </objects>
